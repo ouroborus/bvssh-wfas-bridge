@@ -1,4 +1,4 @@
-# bvssh-fwas-bridge
+# bvssh-wfas-bridge
 
 A Python 3.8 script for blacklisting IPs that connect to a Bitvise SSH Server 
 using a banned client version string. It does this by monitoring BvSSH's logs 
@@ -16,7 +16,7 @@ Accessing the logs and updating the firewall rules both require Administator
 privileges. To run, open CMD as Administrator and run:
 
 ```text
-python bvssh-fwas-bridge.py
+python bvssh-wfas-bridge.py
 ```
 
 A directory can optionally be added to configure the BvSSH log directory if 
@@ -26,7 +26,7 @@ BvSSH wasn't installed in its default location,
 ## Help
 
 ```text
-$ python bvssh-fwas-bridge.py -h
+$ python bvssh-wfas-bridge.py -h
 usage: bvssh-wfas-bridge.py [-h] [directory]
 
 positional arguments:
